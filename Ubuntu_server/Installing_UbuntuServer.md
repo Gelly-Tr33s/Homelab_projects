@@ -15,9 +15,7 @@ I downloaded the Ubuntu Server 26.04 LTS ISO from the official Ubuntu website.
 **Official Download Page:**  
 https://ubuntu.com/download/server
 
-```md
 ![Ubuntu Server Download Page](images/ubuntu-download-page.png)
-```
 
 ---
 
@@ -25,19 +23,14 @@ https://ubuntu.com/download/server
 
 After downloading the ISO file, I created a new virtual machine in Oracle VirtualBox and attached the Ubuntu Server ISO as the installation media.
 
-```md
 ![Oracle VirtualBox Configuration](images/virtualbox-setup.png)
 ![Oracle VirtualBox Configuration2](images/virtualbox-setup2.png)
-```
+
 
 ## Installing the Server
-```md
 ![Ubuntu Server Installation](images/ubuntu-server-start.png)
-```
 And here's what it looked like once it is installed:
-```md
 ![Ubuntu Server Installed](images/ubuntu-server-install-finished.png)
-```
 
 ---
 
