@@ -26,7 +26,7 @@ After downloading the ISO file, I created a new virtual machine in Oracle Virtua
 ![Oracle VirtualBox Configuration](images/virtualbox-setup.png)
 ![Oracle VirtualBox Configuration2](images/virtualbox-setup2.png)
 
-
+ 
 ## Installing the Server
 ![Ubuntu Server Installation](images/ubuntu-server-start.png)
 And here's what it looked like once it is installed:
