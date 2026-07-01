@@ -1,4 +1,4 @@
-# Part 1: Setting Up My Ubuntu Server Homelab
+#Setting Up My Ubuntu Server Homelab
 
 ## Overview
 
