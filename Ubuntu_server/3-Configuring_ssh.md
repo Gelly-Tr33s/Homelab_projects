@@ -38,9 +38,6 @@ So, what I did is:
 <img width="701" height="266" alt="kali-network-setup" src="https://github.com/user-attachments/assets/3c8dbd94-202f-4ee9-bbc3-505581b66707" />
 
 3. On each machine, I assigned their own IP address so that they can reach each other in this isolated setup.
-```md
-sudo systemctl status ssh
-```
 
 With that done, I proceed to making ssh configurations. I used hardening settings such as
 ```md
