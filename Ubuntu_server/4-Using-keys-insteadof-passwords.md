@@ -72,7 +72,7 @@ The SSH configuration contained:
 
 AuthorizedKeysFile ~/.ssh/authorized_keys
 
-The tilde (`~`) is not expanded by sshd in this directive. This means that the ssh is finding the directory named "~". So I removed the "~" symbol.
+The tilde (`~`) is not expanded by sshd in this directive. This means that the ssh is finding the directory named "~". So I removed that symbol.
 
 ### Solution
 
