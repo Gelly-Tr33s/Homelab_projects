@@ -45,7 +45,7 @@ After completing the Ubuntu Server installation, I will perform the following sy
 - [ ] Disable SSH password authentication
 - [ ] Update installed packages
 - [ ] Install software using `apt`
-- [ ] Schedule automatic security updates
+- [ ] COnfigure unattended security updates
 - [ ] Configure the system hostname
 - [ ] Configure the firewall using UFW
 
@@ -60,3 +60,58 @@ By completing these tasks, I aim to:
 - Practice securing a Linux server.
 - Become more comfortable using the command line.
 - Build a strong foundation for future homelab projects involving networking, virtualization, and server management.
+
+---
+## Setup of Home Lab:
+                            Internet
+                                │
+                                │
+                         VirtualBox NAT
+                                │
+                    Adapter 1 (enp0s3)
+                                │
+               ┌─────────────────────────┐
+               │      Ubuntu Server      │
+               │      myhomelab.local    │
+               │                         │
+               │  SSH Server             │
+               │  UFW Firewall           │
+               │  Avahi (mDNS)           │
+               └─────────────────────────┘
+                                │
+                    Adapter 2 (enp0s8)
+                     Internal Network
+                     192.168.10.10/24
+                                │
+                                │
+                    VirtualBox Internal Network
+                                │
+                     192.168.10.20/24
+                    Adapter 1 (eth0)
+                                │
+               ┌─────────────────────────┐
+               │        Kali Linux       │
+               │                         │
+               │ SSH Client              │
+               │ ssh-agent               │
+               │ Avahi Client            │
+               └─────────────────────────┘
+────────────────────────────────────────────────────────────────────────────────────────                
+The Ubuntu uses two network adapters: one for NAT for internet access for package updates. The other is for internal network to make a private network to the client VM.
+The Kali Linux vm is the client vm. It only uses one network adapter which is the internal network. This makes sure that it is connected only to the internet.
+
+# Setup in live view:
+Here is what it looks like in my perspective.                  
+<img width="1137" height="762" alt="UBS-KALI-HOMELABSETUP" src="https://github.com/user-attachments/assets/2cddae6e-2adf-4b4c-9c1b-00466e6b780e" />
+
+
+
+
+
+
+
+
+
+
+
+
