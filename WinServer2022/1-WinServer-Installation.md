@@ -2,7 +2,7 @@
 
 ## Overview
 A Windows server, unlike the Windows we normally use, is an operating system designed to manage data, networks, and many users.
-I would be mainly use this to learn how to use Active Directory, a database and directory service to manage users, devices, and network resources.
+I would be mainly use this to learn how to use Active Directory, a database and directory service to manage users, devices, and permissions.
 This is also an essential tool in helpdesk/IT support roles, which mostly involve resolving user issues such as password resets, and group management.
 
 ## Installation
