@@ -19,10 +19,12 @@ Once the installation is complete, it automatically opens up the server manager.
 # My objectives for this homelab project will be:
 to create:
 - [ ] Domain Controller
+
 then configure:
 - [ ]  Active Directory
 - [ ]  DNS
-- [ ]  DHCP
+- [ ]  DHCP          
+
 afterwards, learn:
 - [ ]  Active Directory
 - [ ]  Identity Management
