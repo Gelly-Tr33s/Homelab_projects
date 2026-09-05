@@ -33,7 +33,7 @@ Final step is to promoting the server by assigning a domain name. This is shown 
 other configurations.                    
 <img width="607" height="112" alt="promotedServer" src="https://github.com/user-attachments/assets/4436d671-cb33-446a-989f-8609faec8b10" />
 
-Next, I will be configuring the DNS 
+Next, I will be configuring the DNS and DHCP
 
 
 
